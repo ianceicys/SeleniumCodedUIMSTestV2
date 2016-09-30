@@ -29,7 +29,7 @@ namespace CodedUITestProject1
         [TestMethod]
         public void CodedUITestMethod1()
         {
-            String url = "http://www.techmeme.com";
+            String url = "http://www.github.com";
             string solution_dir = Path.GetDirectoryName(Path.GetDirectoryName(TestContext.TestDir));
             IWebDriver driver = new ChromeDriver(solution_dir);
             driver.Navigate().GoToUrl(url);
